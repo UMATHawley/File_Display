@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Upload Display</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📁 File Upload Display</h1>
+        
+        <div class="upload-section">
+            <h2>Upload Your File</h2>
+            <p>Choose a file to see its name displayed below</p>
+            
+            <div class="file-input-wrapper">
+                <input type="file" id="fileInput" class="file-input">
+                <div class="file-input-button">
+                    📁 Choose File
+                </div>
+            </div>
+            
+            <button id="uploadBtn" class="btn btn-primary" disabled>Upload</button>
+        </div>
+
+        <div class="display-section">
+            <h3>File Information</h3>
+            <div id="fileDisplay" class="file-display">
+                <p class="no-file">No file selected</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
